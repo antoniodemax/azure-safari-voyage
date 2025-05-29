@@ -1,5 +1,5 @@
 
-import { TreePalm, Users, Plane, Map } from 'lucide-react';
+import { TreePalm, Users, Plane, Map, Zap, Cpu, Rocket } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const AboutSection = () => {
@@ -30,6 +30,32 @@ const AboutSection = () => {
               every journey with us becomes a cherished memory. From the vast savannas 
               to pristine beaches, we bring you closer to nature's most spectacular displays.
             </p>
+            
+            {/* TSM Event Images */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+              <div className="relative overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="/lovable-uploads/a6a7536e-c99e-44df-b49b-873a965f3afd.png"
+                  alt="TSM Team Celebration Event"
+                  className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                <div className="absolute bottom-3 left-3 text-white">
+                  <p className="text-sm font-semibold">TSM Team Celebration</p>
+                </div>
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="/lovable-uploads/1227b7a4-9cdc-480c-a18e-f0d423dfba32.png"
+                  alt="TSM Leadership Team"
+                  className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                <div className="absolute bottom-3 left-3 text-white">
+                  <p className="text-sm font-semibold">TSM Leadership Excellence</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="relative">
             <div className="bg-gradient-to-br from-nature-green-100 to-nature-blue-100 rounded-2xl p-8 h-80 flex items-center justify-center">
@@ -38,6 +64,66 @@ const AboutSection = () => {
                 <p className="text-nature-green-800 font-semibold">
                   Preserving Nature's Beauty
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Futuristic Learn More Section */}
+        <div className="mb-20">
+          <div 
+            className="relative rounded-3xl overflow-hidden"
+            style={{
+              backgroundImage: `url('/lovable-uploads/3b4fd6df-9762-4512-a7ec-94d708c742a9.png')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 via-purple-900/80 to-green-900/90"></div>
+            <div className="relative z-10 p-12 text-white">
+              <div className="text-center mb-12">
+                <h3 className="text-4xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-green-400 bg-clip-text text-transparent">
+                  The Future of Travel is Here
+                </h3>
+                <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+                  Step into tomorrow with TSM Tours & Travel's revolutionary approach to exploration
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  <Zap className="h-12 w-12 text-cyan-400 mb-4 mx-auto" />
+                  <h4 className="text-xl font-bold mb-3 text-center">AI-Powered Itineraries</h4>
+                  <p className="text-sm text-gray-200 text-center">
+                    Our advanced AI algorithms create personalized safari experiences based on wildlife migration patterns, weather predictions, and your unique preferences.
+                  </p>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  <Cpu className="h-12 w-12 text-purple-400 mb-4 mx-auto" />
+                  <h4 className="text-xl font-bold mb-3 text-center">Virtual Reality Previews</h4>
+                  <p className="text-sm text-gray-200 text-center">
+                    Experience your destination before you travel with immersive VR tours of safari camps, wildlife encounters, and breathtaking landscapes.
+                  </p>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  <Rocket className="h-12 w-12 text-green-400 mb-4 mx-auto" />
+                  <h4 className="text-xl font-bold mb-3 text-center">Smart Conservation Tech</h4>
+                  <p className="text-sm text-gray-200 text-center">
+                    Track your positive impact through blockchain-verified conservation contributions and real-time wildlife protection updates.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-12 text-center">
+                <div className="bg-gradient-to-r from-cyan-500 to-green-500 rounded-full p-8 max-w-2xl mx-auto">
+                  <h4 className="text-2xl font-bold mb-4">Coming Soon: Holographic Guides</h4>
+                  <p className="text-lg">
+                    Be among the first to experience safari adventures with holographic wildlife experts 
+                    who appear right beside you in the wilderness, sharing insights that bring nature to life like never before.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
