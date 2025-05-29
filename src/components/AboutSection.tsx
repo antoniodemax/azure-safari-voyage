@@ -1,5 +1,5 @@
 
-import { TreePalm, Users, Airplane, Map } from 'lucide-react';
+import { TreePalm, Users, Plane, Map } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const AboutSection = () => {

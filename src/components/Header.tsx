@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { TreePalm, Users, Map, Airplane } from 'lucide-react';
+import { TreePalm, Users, Map, Plane } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +22,7 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <div className="flex items-center space-x-1">
               <TreePalm className="h-8 w-8 text-nature-green-600" />
-              <Airplane className="h-6 w-6 text-nature-blue-600" />
+              <Plane className="h-6 w-6 text-nature-blue-600" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-nature-green-800">TSM</h1>

@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { TreePalm, Airplane, Users, Map } from 'lucide-react';
+import { TreePalm, Plane, Users, Map } from 'lucide-react';
 
 const ContactSection = () => {
   return (
@@ -27,7 +27,7 @@ const ContactSection = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-nature-green-100 rounded-full flex items-center justify-center">
-                    <Airplane className="h-6 w-6 text-nature-green-600" />
+                    <Plane className="h-6 w-6 text-nature-green-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Flight Bookings</h4>

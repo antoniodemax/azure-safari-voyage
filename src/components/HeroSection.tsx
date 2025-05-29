@@ -1,6 +1,6 @@
 
 import { Button } from '@/components/ui/button';
-import { Airplane, TreePalm, Map } from 'lucide-react';
+import { Plane, TreePalm, Map } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -11,7 +11,7 @@ const HeroSection = () => {
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 animate-float">
-          <Airplane className="h-12 w-12 text-nature-blue-600 opacity-20" />
+          <Plane className="h-12 w-12 text-nature-blue-600 opacity-20" />
         </div>
         <div className="absolute top-40 right-20 animate-float" style={{ animationDelay: '1s' }}>
           <TreePalm className="h-16 w-16 text-nature-green-600 opacity-20" />
@@ -30,7 +30,7 @@ const HeroSection = () => {
       {/* Airplane illustration */}
       <div className="absolute top-1/4 right-10">
         <div className="relative">
-          <Airplane className="h-24 w-24 text-nature-blue-600 animate-float" />
+          <Plane className="h-24 w-24 text-nature-blue-600 animate-float" />
           <div className="absolute -bottom-2 -right-2 w-8 h-1 bg-white rounded-full opacity-60"></div>
           <div className="absolute -bottom-4 -right-4 w-12 h-1 bg-white rounded-full opacity-40"></div>
         </div>
@@ -62,7 +62,7 @@ const HeroSection = () => {
               variant="outline" 
               className="border-2 border-white text-white hover:bg-white hover:text-nature-blue-600 px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              <Airplane className="mr-2 h-5 w-5" />
+              <Plane className="mr-2 h-5 w-5" />
               Book Flight
             </Button>
           </div>
@@ -71,7 +71,7 @@ const HeroSection = () => {
         {/* Features highlight */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 text-white">
-            <Airplane className="h-8 w-8 text-nature-blue-200 mb-4 mx-auto" />
+            <Plane className="h-8 w-8 text-nature-blue-200 mb-4 mx-auto" />
             <h3 className="font-semibold text-lg mb-2">Flight Booking</h3>
             <p className="text-sm opacity-90">Seamless airline reservations worldwide</p>
           </div>

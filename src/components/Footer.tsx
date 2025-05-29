@@ -1,5 +1,5 @@
 
-import { TreePalm, Airplane, Users, Map } from 'lucide-react';
+import { TreePalm, Plane, Users, Map } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <TreePalm className="h-8 w-8 text-nature-green-300" />
-              <Airplane className="h-6 w-6 text-nature-blue-300" />
+              <Plane className="h-6 w-6 text-nature-blue-300" />
               <div>
                 <h3 className="text-xl font-bold">TSM</h3>
                 <p className="text-sm text-nature-green-300">TOURS & TRAVEL</p>
