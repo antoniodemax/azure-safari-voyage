@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+# TSM Tours & Travel
 
-## Project info
+Discover nature’s wonders with **TSM Tours & Travel** – your gateway to unforgettable safari adventures, seamless flight bookings, and custom travel experiences. We connect you with wildlife and support sustainable tourism across Africa.
 
-**URL**: https://lovable.dev/projects/e11f08f9-5ce8-4497-979a-2a1305959e21
+🌍 **Live Demo:** [https://azure-safari-voyage.vercel.app/](https://azure-safari-voyage.vercel.app/)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- 🦁 Safari tours & wildlife adventures
+- ✈️ Flight booking and travel arrangements
+- 🏕️ Custom travel packages
+- 📸 Gallery of real travel memories
+- 🌱 Sustainable, community-focused tourism
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e11f08f9-5ce8-4497-979a-2a1305959e21) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- [Vite](https://vitejs.dev/) (build tool)
+- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) (utility-first styling)
+- [shadcn-ui](https://ui.shadcn.com/) (UI components)
+- [Lucide Icons](https://lucide.dev/) (iconography)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting Started
 
-Follow these steps:
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/) or [bun](https://bun.sh/)
+
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+git clone https://github.com/YOUR_USERNAME/azure-safari-voyage.git
+cd azure-safari-voyage
+npm install
+# or
+bun install
 ```
 
-**Edit a file directly in GitHub**
+### Development
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run dev
+# or
+bun run dev
+```
+Visit [http://localhost:8080](http://localhost:8080) in your browser.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+This project is ready for deployment on [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or any static hosting.
 
-This project is built with:
+- **Vercel:** Push to your GitHub repo and import into Vercel.
+- **Custom Domain:** Configure via your hosting provider.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/e11f08f9-5ce8-4497-979a-2a1305959e21) and click on Share -> Publish.
+```
+src/
+  components/      # UI and page sections
+  hooks/           # Custom React hooks
+  lib/             # Utilities and helpers
+  pages/           # Page-level components
+  App.tsx          # Main app component
+  main.tsx         # Entry point
+public/
+  lovable-uploads/ # Uploaded images
+  favicon.ico
+  robots.txt
+```
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## Contact
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **Email:** info@tsmtoursandtravel.com
+- **Phone:** +1 (555) 123-4567
+- **Address:** 123 Adventure Street, Safari City, SC 12345
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## License
+
+© 2024 TSM Tours & Travel. All rights reserved.
+
+---
